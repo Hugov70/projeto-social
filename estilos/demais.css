@@ -1,0 +1,16 @@
+@charset "UTF-8";
+nav {
+    position: absolute;
+    top: 0px;
+    left: 95%;
+    
+    
+}
+nav > a > img{
+    display: block;
+    right: 0px;
+}
+
+main {
+    margin-top: 15px;
+}
