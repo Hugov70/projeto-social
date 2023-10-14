@@ -1,7 +1,9 @@
+@charset "UTF-8";
 body {
     margin: 0px;
     padding: 0px;
     background-image: url(pacote-d013/imagens/fundo-madeira.jpg);
+    font-family: Arial, Helvetica, sans-serif;
 }
 nav {
     position: absolute;
@@ -18,22 +20,25 @@ nav > a > img{
     
 }
 nav > a > img:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     border: 1px solid white;
+    box-sizing: border-box;
 }
 main {
     background-image: url(pacote-d013/imagens/frame-iphone.png);
     width: 311px;
-    height: 627px;
+    height: 629px;
     margin: auto;
     margin-top: 25px;
+    
 }
 iframe.tela {
     display: block;
-    width: 270px;
+    width: 279px;
     height: 475px;
     margin: auto;
     position: relative;
-    top: 80px;
-    
+    top: 72px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
