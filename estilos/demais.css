@@ -9,6 +9,7 @@ nav {
 nav > a > img{
     display: block;
     right: 0px;
+    max-width: 50px;
 }
 
 main {
